@@ -1,10 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:myapp/Card.dart';
 import 'package:myapp/validation.dart';
 
-import 'home.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -25,7 +23,7 @@ class _SplashScreenState extends State {
     super.initState();
     Timer(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => Cards()));
+          context, MaterialPageRoute(builder: (context) => LoginForm()));
     });
   }
 
