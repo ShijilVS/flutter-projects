@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/assignment/travel/datas.dart';
+import 'package:carousel_slider/carousel_slider.dart';
 
 
 class Travpage extends StatelessWidget{
@@ -36,12 +37,9 @@ class Travpage extends StatelessWidget{
             ),
             Padding(
               padding: const EdgeInsets.only(top: 10,bottom: 10),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
+              child: CarouselSlider(
+                items:  [
                   Container(
-                    height: 120,
-                    width: 150,
                     decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                         fit: BoxFit.cover,
@@ -52,8 +50,6 @@ class Travpage extends StatelessWidget{
                     ),
                   ),
                   Container(
-                    height: 120,
-                    width: 150,
                     decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                         fit: BoxFit.cover,
@@ -64,8 +60,6 @@ class Travpage extends StatelessWidget{
                     ),
                   ),
                   Container(
-                    height: 120,
-                    width: 150,
                     decoration: BoxDecoration(borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                         fit: BoxFit.cover,
@@ -76,8 +70,16 @@ class Travpage extends StatelessWidget{
                     ),
                   ),
                 ],
-              ),
-            )
+                  options: CarouselOptions(
+                    viewportFraction: 0.6,
+                    enlargeCenterPage: true,
+                    autoPlay: true,
+                    aspectRatio: 4/1.5,
+                    autoPlayCurve:Curves.easeInOutCubicEmphasized,
+                    autoPlayAnimationDuration:const Duration(milliseconds: 800) ,
+                    enableInfiniteScroll: true,
+                  )),
+            ),
           ],
         ),
       ),

@@ -3,8 +3,9 @@ List<Map<String,dynamic>> traveldatas = [
     "id":1,
     "place":"Italy",
     "description":"Arguably one of the most popular tourist hotspots in the world, Italy offers a myriad of experiences for travelers of all kinds. You can indulge your inner foodie with decadent Italian cuisine, immerse yourself in the fashion capital of the world, drive through picturesque countryside roads, and travel back in time while visiting ancient monuments and art galleries. What more could you ask for? Spread over an area of 3,01,340 km-square, Italy is the eighth-largest country in the world, and also boasts of having the highest number of UNESCO World Heritage sites. It’s no wonder that this nation is also the fifth most-visited one by tourists! If you are looking for an experience that will last a lifetime, consider planning a vacation to Italy and take a plunge into its fantastic culture!",
-    "images": "https://cdn.pixabay.com/photo/2017/01/14/13/59/castelmezzano-1979546__480.jpghttps://cdn.pixabay.com/photo/2017/01/14/13/59/castelmezzano-1979546__480.jpg"
+    "images": "https://cdn.pixabay.com/photo/2017/01/14/13/59/castelmezzano-1979546__480.jpghttps://cdn.pixabay.com/photo/2017/01/14/13/59/castelmezzano-1979546__480.jpg",
   },
+
   {
     "id":2,
     "place":"Vietnam",
