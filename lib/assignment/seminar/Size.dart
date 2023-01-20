@@ -26,7 +26,7 @@ class Home extends StatelessWidget {
       body:Container(
         color: Colors.red,
         height: height/2,
-        width: width/1.5,
+        width: width/2,
       )
     );
   }
